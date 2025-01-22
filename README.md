@@ -26,5 +26,5 @@ Install dependencies:
    ```
 
 ## Screenshots
-![Homepage Screenshot]()
-![Prediction Result Screenshot]()
+![Homepage Screenshot](main_page.png)
+![Prediction Result Screenshot](result.png)
