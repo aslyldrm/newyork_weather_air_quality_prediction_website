@@ -7,7 +7,7 @@ import pickle
 app = Flask(__name__)
 
 
-model = pickle.load(open("C:\\Users\\GRNT\\Documents\\Flask_Projects\\newyork_weather_air_quality_web\\nwaq_web\\models\\clf.pkl", "rb"))
+model = pickle.load(open("clf.pkl", "rb"))
 
 @app.route('/', methods=["GET","POST"])
 def index():
